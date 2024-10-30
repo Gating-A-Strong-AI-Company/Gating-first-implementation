@@ -73,7 +73,7 @@ We welcome contributions to improve and expand the Gating project! Follow these 
 1. Clone the forked repository to your local machine:
    ```bash
    git clone https://github.com/<yourusername>/Gating-first-implementation.git
-   cd gating
+   cd Gating-first-implementation
    ```
 
 ### Step 3: Create a New Branch
