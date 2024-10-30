@@ -1,0 +1,20 @@
+{
+    "name": "Jupyter Development Container",
+    "dockerFile": "Dockerfile",
+
+    // Set up the default command to start Jupyter notebook in the container
+    "postCreateCommand": "jupyter notebook --generate-config && echo \"c.NotebookApp.token = ''\" >> ~/.jupyter/jupyter_notebook_config.py",
+
+    "settings": {
+        "python.pythonPath": "/usr/local/bin/python",
+        "jupyter.jupyterServerType": "local"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+    ],
+
+    "forwardPorts": [8888],
+    "remoteUser": "root",
+    "workspaceFolder": "/workspace"
+}
