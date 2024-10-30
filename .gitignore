@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+*.env
+*.pyenv
+*.pytest_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+.DS_Store
+.DS_Store?
+.fseventsd
+.VolumeIcon.icns
+.TemporaryItems
+.apdisk
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Jupyter Notebook extensions and metadata
+.jupyter/
+.jupyter_cache/
+.profile/
+__MACOSX/
