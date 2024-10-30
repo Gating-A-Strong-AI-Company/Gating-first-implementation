@@ -28,16 +28,20 @@ In this repository, the Gating model is implemented in Python using PyTorch. The
 - **Gate class**: Defines the gating mechanism, which selectively activates or deactivates connections based on triggers.
 - **GatedLinear class**: A PyTorch layer modified to accommodate dynamic gating. This layer can adjust connections based on gate states, allowing the network to adapt its pathways on-the-fly.
 
-## Running the Notebook
+## Running the Notebooks
 
 ### In Colab
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hannes-sistemica/Gating-first-implementation/blob/main/Gated_Network_Model_Simple_Demo.ipynb)
+Below are links to open each notebook directly in Google Colab:
+
+- **[Gated_Network_Model_Simple_Demo.ipynb](https://colab.research.google.com/github/hannes-sistemica/Gating-first-implementation/blob/main/Gated_Network_Model_Simple_Demo.ipynb)**: A simple demonstration of the gating mechanism.
+- **[Gated_Network_Model_Simple_Comparison.ipynb](https://colab.research.google.com/github/hannes-sistemica/Gating-first-implementation/blob/main/Gated_Network_Model_Simple_Comparison.ipynb)**: Compares the gated network outputs with and without gating.
+- **[Gated_Network_Model_Simple_2_Gating_Regions.ipynb](https://colab.research.google.com/github/hannes-sistemica/Gating-first-implementation/blob/main/Gated_Network_Model_Simple_2_Gating_Regions.ipynb)**: A model showcasing two gating regions.
+- **[Gated_Network_Model_Simple_Learning_Process.ipynb](https://colab.research.google.com/github/hannes-sistemica/Gating-first-implementation/blob/main/Gated_Network_Model_Simple_Learning_Process.ipynb)**: Demonstrates a simple learning process with gating.
 
 ### Classic installation
 
-see [official website](https://jupyter.org/install) for installation instructions
-
+See [official website](https://jupyter.org/install) for installation instructions to set up Jupyter notebooks locally.
 
 ### With Local Dev Container
 
