@@ -34,7 +34,12 @@ In this repository, the Gating model is implemented in Python using PyTorch. The
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hannes-sistemica/Gating-first-implementation/blob/main/Gated_Network_Model_Simple_Demo.ipynb)
 
-### With Dev Container Locally
+### Classic installation
+
+see [official website](https://jupyter.org/install) for installation instructions
+
+
+### With Local Dev Container
 
 To run the Gating model notebook, follow these steps:
 
